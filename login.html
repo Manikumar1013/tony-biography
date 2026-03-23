@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+          body {
+    margin: 0px;
+    background-image: url("https://images.wallpapersden.com/image/download/abstract-gradient-hd-shapes_bWVlbWmUmZqaraWkpJRnamtlrWZpaWU.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+    .container {
+        text-align: center;
+        border-radius: 12px;
+        font-weight: lighter;
+        background: rgba(255, 255, 255, 0.1);
+        width: 30%;
+        padding:1% 3% 3% 3%;
+        margin:auto ;
+        margin-top: 7%;
+
+        }
+    h1 {
+        font-weight: 20px;
+    
+        }
+    .container input{
+        margin: 8px;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: white;
+        margin: 8px;
+  
+        }
+
+    button:hover {
+        background: skyblue;
+        }
+    </style>
 </head>
 <body>
     
     <center><h1><b>LOGIN PAGE<b/></h1></center>
-    <center><form action="./tony.html" target="_blank">
+    <center><form action="./tony.html" target="_blank" class="container">
         <input type="email" placeholder="Enter your email" name="email" required/><br/>
         <input type="password" placeholder="Enter your password" name="password" required/><br/>
         <button>Forgot password?</button><br/>

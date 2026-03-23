@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+   body {
+    margin: 0;
+    background-image: url("https://images.wallpapersden.com/image/download/abstract-gradient-hd-shapes_bWVlbWmUmZqaraWkpJRnamtlrWZpaWU.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    }
+
+    .container {
+        text-align: center;
+        border-radius: 12px;
+        font-weight: lighter;
+        background: rgba(255, 255, 255, 0.1);
+        width: 50%;
+        padding:3% 5% 4% 4%;
+        margin:auto ;
+        margin-top: 3%;
+
+    }
+
+    h1 {
+        font-weight: 20px;
+    
+    }
+
+    .container input {
+        width: 250px;
+        padding: 10px;
+        margin: 8px;
+    
+    
+    }
+    .container input[type="radio"],
+    .container input[type="checkbox"] {
+        width: auto;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: white;
+  
+    }
+
+    button:hover {
+        background: skyblue;
+    }
+            
+    </style>
 </head>
 <body>
     <center><h1><b>REGISTRATION PAGE<b/></h1></center>
-    <center><form action="./login.html" target="_blank">
+    <center><form action="./login.html" target="_blank" class="container">
         <input type="text" placeholder="Enter your name" name="name" required/><br/>
         <input type="email" placeholder="Enter your email" name="email" required/><br/>
         <input type="password" placeholder="Enter your password" name="password" required/><br/>
